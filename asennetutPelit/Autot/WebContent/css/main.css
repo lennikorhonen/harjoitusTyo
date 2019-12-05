@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;  
+  width: 50%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;  
+}
+
+table tbody tr:nth-child(even){background-color: #bdbdbd;}
+
+table tbody tr:hover {background-color: #a8a8a8;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0080ff;
+  color: white;
+}
+
+.poista{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;	
+}
+
+.oikealle{
+	text-align: right;	
+}
+
+#uusiAuto, #takaisin, #logOut{
+	color: white;	
+	cursor: pointer;	
+}
+
+#loginDiv{
+	position: absolute;
+	border: 1px solid;
+	padding: 20px;
+	border-radius: 10px;
+	left: 35%;
+	top: 10%;
+	background-color: white;
+}
+#lahetaViesti{
+	position: absolute;
+	border: 1px solid;
+	padding: 20px;
+	border-radius: 10px;
+	left: 35%;
+	top: 10%;
+	background-color: white;
+}
+label {
+	display: block;
+	width: 5em;
+	float: left;
+}
+
